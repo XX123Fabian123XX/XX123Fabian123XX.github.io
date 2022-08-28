@@ -19,3 +19,5 @@
 8. danach können die Templates in den src Ordner geändert werden, einfach an der richtigen Stelle in der HTML Datei den Text einfügen -> die Dateien aus dem Docs-Ordner werden dynamisch generiert
 
 9. wenn man die Hintergrundbilder verändern möchte, muss man in die input.css datei wechseln und dort bei den jeweiligen Klassen z.B. header-allgemein, das Hintergrundbild ändern
+
+10. Logo hinzufügen -> ich hatte nichts passendes -> in die _navbar.html gehen und Zeile 39 und 40 mit einem passenden Bild oder auch svg ersetzen
