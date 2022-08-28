@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-daisy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+      "app": {
+          "patterns": [
+              "src"
+          ],
+          "extensions": "ejs,html"
+      }
+  },
+  "scripts": {
+      "watchcss": "npx tailwindcss -i ./src/input.css -o ./docs/build.css --minify --watch",
+      "app": "node app.js",
+      "watch": "npm-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "@tailwindcss/aspect-ratio": "^0.4.0",
+      "daisyui": "^2.20.0",
+      "ejs": "^3.1.8",
+      "glob": "^8.0.3",
+      "npm-watch": "^0.11.0",
+      "tailwindcss": "^3.1.6"
+  }
+}
